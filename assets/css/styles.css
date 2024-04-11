@@ -7,6 +7,8 @@ body {
   font-family: "Open sans", Helvetica, Arial, sans-serif;
   color: #666666;
   padding: 0;
+  text-align: center;
+  align-items: center;
 }
 .topspace {
   margin-top: 40px;
@@ -132,6 +134,14 @@ a:hover {
   padding-right: 0.5em;
   color: #509e98;
 }
+ul.myUL {
+  display: inline-block;
+  text-align: left;
+}
+div.container {
+  text-align: center;
+}
+
 
 /*********************************************************************
 
@@ -211,7 +221,7 @@ a:hover {
   font-size: 30px;
 }
 .follow-me-icons i {
-  float: left;
+  float: center;
   margin: 0 10px 0 0;
 }
 /* Max page width
