@@ -52,6 +52,7 @@ body {
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
+  align-items: center;
 }
 /*********************************************************************
 
