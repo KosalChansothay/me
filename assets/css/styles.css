@@ -103,6 +103,17 @@ body {
   /* Green color for the play button */
 }
 
+.lang {
+  list-style-type: none;
+}
+
+.lang li:before {
+  content: "✔";
+  padding-right: 0.5em;
+  color: #509e98;
+}
+
+
 
 /* Footer styles */
 #footer {
